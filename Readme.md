@@ -1,7 +1,7 @@
 # Testes com Rest-API no Node
 
 ## Packages usados
-> Nodemon (global) e CORS
+> Nodemon (global), CORS e Body-Parser
 
 ### Implementação
 Crie um arquivo package.json no lado do servidor:
@@ -27,4 +27,10 @@ Ctrl + C (Derruba o servidor)
 > Lado do servidor
 ```
 npm install --save cors
+```
+
+## Manipulação dos argumentos enviados por POST para o servidor
+> Lado do servidor
+```
+npm install --save body-parser
 ```
